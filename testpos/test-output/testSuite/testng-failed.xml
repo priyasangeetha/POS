@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [testSuite]" verbose="10">
+  <test thread-count="2" name="MytestCase(failed)" verbose="10">
+    <classes>
+      <class name="tests.Orders">
+        <methods>
+          <include name="OrdersValidation"/>
+          <include name="reportSetup"/>
+          <include name="setup"/>
+          <include name="reportgeneration"/>
+        </methods>
+      </class> <!-- tests.Orders -->
+    </classes>
+  </test> <!-- MytestCase(failed) -->
+</suite> <!-- Failed suite [testSuite] -->

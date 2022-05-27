@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.Reports">
+        <methods>
+          <include name="reportSetup"/>
+          <include name="setup"/>
+          <include name="clickreports"/>
+          <include name="reportgeneration"/>
+        </methods>
+      </class> <!-- tests.Reports -->
+      <class name="tests.Customerreceipt">
+        <methods>
+          <include name="reportSetup"/>
+          <include name="setup"/>
+          <include name="reportgeneration"/>
+          <include name="customerreceipt"/>
+        </methods>
+      </class> <!-- tests.Customerreceipt -->
+      <class name="tests.PaymentType">
+        <methods>
+          <include name="reportSetup"/>
+          <include name="setup"/>
+          <include name="paymentorder"/>
+          <include name="reportgeneration"/>
+        </methods>
+      </class> <!-- tests.PaymentType -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
